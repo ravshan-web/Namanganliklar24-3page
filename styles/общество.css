@@ -1,0 +1,706 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+header {
+  width: 100%;
+  height: 332px;
+  background: #f6f6f9;
+}
+
+.container {
+  width: 1240px;
+  margin: auto;
+}
+
+.head {
+  padding-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  background-color: #295091;
+  height: 4px;
+}
+
+/* Header qismining chap tarafi logo, valyuta kursi */
+
+.head-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 306px;
+  height: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+}
+
+.logo-img {
+  background-color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 10px 0px #cacaca40;
+}
+
+.course-of-currency {
+  align-items: center;
+  width: 300px;
+  height: 21px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Rubik";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 16px;
+}
+
+.dollar,
+.ruble,
+.euro {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Header qismining o`ng tarafi  */
+
+.head-right {
+  display: flex;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 38.1px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.choose-lang {
+  width: 64.76px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lang-img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.telegram-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  width: 146px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  /* follow */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.telegram-icon {
+  height: 19.375px;
+  width: 19.375px;
+}
+
+.follow {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+/* Nav menu stylies start */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 68px;
+  background-color: #fff;
+  margin-top: 45px;
+  box-shadow: 0px 2px 5px 0px #9f9f9f30;
+}
+
+.nav-ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-ul-li {
+  list-style-type: none;
+}
+
+.nav-ul-li .nav-link {
+  font-family: Rubik;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #474646;
+}
+
+.nav-link:link {
+  color: #515151;
+}
+
+.nav-link:visited {
+  color: #234279;
+}
+
+.nav-limnk:hover {
+  color: #2653a0;
+}
+
+.nav-link:active {
+  color: #14223b;
+}
+
+/* Banner style */
+
+.banner {
+  margin-top: 18px;
+}
+
+.banner-img {
+  width: 1240px;
+  height: 99px;
+}
+
+/* Covid-19 infographic */
+
+.status-wrapper {
+  height: 133px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+  background: #f6f6f9;
+  margin-top: 22px;
+}
+
+.info-desc {
+  width: 161px;
+  height: 52px;
+  padding-left: 21px;
+}
+
+.info-desc-other {
+  width: 60px;
+  height: 52px;
+  padding-left: 21px;
+}
+
+.info-1-desc {
+  width: 230px;
+  height: 52px;
+  margin-left: 21px;
+}
+
+.status-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* text */
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.status-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ver-line-1 {
+  height: 72px;
+  width: 2px;
+  background: #eb5569;
+}
+
+.ver-line-2 {
+  width: 2px;
+  height: 49px;
+  background: #f4ccd1;
+}
+
+.info-text-1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #db0000;
+}
+
+.info-text-2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05b135;
+}
+
+.info-number {
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Covid-19 status end */
+
+.hero {
+  height: 650px;
+}
+
+.wrapper-6-items {
+  width: 100%;
+  /* height: 450px; */
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero-news {
+  cursor: pointer;
+  width: 386px;
+  height: 274px;
+  text-decoration: none;
+  margin: 18px 0px;
+}
+
+.hero-news-img {
+  width: 386px;
+  height: 190px;
+}
+
+.hero-news-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-news-desc {
+  width: 386px;
+  height: 84px;
+}
+
+.hero-news-desc p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 11px;
+}
+
+.hero-news-desc small {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 10px;
+  color: #6b6d97;
+}
+
+.center-wrapper {
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+}
+
+.center-left {
+  width: 854px;
+}
+
+/* center right news start */
+
+.center-right {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.center-right-news {
+  background: #f6f6f9;
+  border-radius: 5px;
+  width: 386px;
+  height: 542px;
+}
+
+.center-right-news h3 {
+  padding: 20px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+}
+
+.aside-news-hr {
+  width: 346px;
+  height: 4px;
+  background: #e4e4e4;
+  margin: 14px 20px 18px 20px;
+}
+
+.aside-news {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.aside-news p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  width: 347px;
+  height: 62px;
+  color: #202020;
+}
+
+.aside-news-date {
+  padding-top: 11px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 117px;
+  height: 19px;
+  color: #7688a4;
+  margin: 0px 0px 8px 0px;
+}
+
+/* Ucell adware */
+
+.ucell-ad {
+  cursor: pointer;
+}
+
+.add-wrapper {
+  margin-top: 25px;
+  width: 386px;
+  height: 477px;
+  border-radius: 5px;
+}
+
+/* main end */
+
+/* footer-start */
+footer {
+  background: #295093;
+  height: 255px;
+  margin-top: 38px;
+}
+
+.footer-logo {
+  background: #133c82;
+  width: 194px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.footer-logo-text {
+  background: #133c82;
+  padding: 11px 12px 6px 9px;
+  width: 173px;
+  height: 21px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.top-footer {
+  padding-top: 20px;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-telegram-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 132px;
+  height: 38px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+}
+
+.footer-tg-follow {
+  display: flex;
+  align-items: center;
+}
+
+.footer-tg-follow p {
+  color: #fff;
+  margin-right: 17px;
+}
+
+/* top of footer end */
+
+.footer-hr {
+  margin-top: 28px;
+  width: 1240px;
+  height: 3px;
+  left: 119px;
+  top: 2645px;
+  background: #133c82;
+}
+
+/* bottom of footer start */
+
+.bottom-footer {
+  width: 80%;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-site {
+  width: 365px;
+  height: 121px;
+}
+
+.about-site h4 {
+  color: #fff;
+}
+
+.about-site p {
+  padding-top: 16px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.footer-ul-li {
+  list-style-type: none;
+  line-height: 28px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+/* Article page start */
+
+.date {
+  display: flex;
+}
+
+.date p {
+  margin-bottom: 13px;
+  padding-left: 6px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+}
+
+.center-left-img h3 {
+  margin-bottom: 13px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.center-left-desc {
+  margin-top: 17px;
+  width: 794px;
+  height: 590px;
+}
+
+.desc-title {
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 18px;
+}
+
+.desc-text-1 {
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+.desc-text-2 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.desc-hashtag {
+  width: 790px;
+  height: 21px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.desc-hashtag a {
+  text-decoration: none;
+  margin-right: 9px;
+  color: #28508e;
+}
+
+.center-end-hr {
+  margin: 20px 0px;
+  width: 794px;
+  height: 2px;
+  background: #ebebeb;
+}
+
+/* Form elements style start */
+
+form {
+  width: 600px;
+}
+
+input {
+  padding: 16px;
+  width: 600px;
+  height: 50px;
+  margin: 20px 0px 0px 0px;
+  background: #f1f1f1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.text-area {
+  width: 600px;
+  height: 307px;
+  text-align: start;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.text-area input {
+  height: 307px;
+}
+
+.send-file {
+  width: 221px;
+  height: 50px;
+}
+
+.send-file-input {
+  display: none;
+}
+
+.file-label {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 50px;
+  width: 221px;
+  margin: 20px 0px 0px 0px;
+  padding-left: 16px;
+}
+
+.verify-code-wrapper {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verify-code {
+  width: 221px;
+  height: 50px;
+}
+
+.form-button {
+  width: 221px;
+  height: 50px;
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
